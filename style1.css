@@ -1,12 +1,5 @@
-/* ════════════════════════════════════════════════════
-   GAADHA JAYAKUMAR — PORTFOLIO
-   style1.css  |  Deep Slate + Electric Teal
-   100% Pure HTML & CSS — No JavaScript
-   ════════════════════════════════════════════════════ */
-
-/* ── COLOUR TOKENS ───────────────────────────────────── */
 :root {
-    /* Backgrounds — rich dark slate, not plain black */
+    
     --bg:           #0b0f14;
     --bg-mid:       #0f1520;
     --surface:      #131c28;
@@ -17,13 +10,13 @@
     --border-hi:    rgba(32, 220, 180, 0.30);
 
     /* Text */
-    --fg:           #ddeaf5;          /* cool off-white */
-    --muted:        #4d6880;          /* slate-blue muted */
-    --muted-hi:     #7ea0bc;          /* lighter muted */
+    --fg:           #ddeaf5;          
+    --muted:        #4d6880;          
+    --muted-hi:     #7ea0bc;          
 
     /* Teal accent family */
-    --accent:       #20dbb4;          /* electric teal */
-    --accent-soft:  #5eecd0;          /* lighter teal */
+    --accent:       #20dbb4;          
+    --accent-soft:  #5eecd0;          
     --accent-dim:   rgba(32, 219, 180, 0.12);
     --accent-glow:  rgba(32, 219, 180, 0.06);
 
@@ -33,7 +26,7 @@
     --mono:  'DM Mono', monospace;
 }
 
-/* ── RESET ───────────────────────────────────────────── */
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -182,10 +175,7 @@ nav a::after {
 nav a:hover { color: var(--accent-soft); }
 nav a:hover::after { width: 100%; }
 
-/* ════════════════════════════════════════════════════
-   SCROLL ANIMATIONS — animation-timeline: view()
-   Pure CSS — No JavaScript
-   ════════════════════════════════════════════════════ */
+
 
 @keyframes fadeUp {
     from { opacity: 0; transform: translateY(50px); }
@@ -356,7 +346,7 @@ nav a:hover::after { width: 100%; }
     background: var(--accent);
     position: relative;
     overflow: hidden;
-    transition: color 0.4s ease, background 0.4s ease;
+    transition: color 0.4s ease, back-ground 0.4s ease;
 }
 
 /* Teal-to-transparent wipe on primary btn hover */
@@ -880,9 +870,6 @@ footer {
 /* ── SELECTION ───────────────────────────────────────── */
 ::selection { background: var(--accent); color: var(--bg); }
 
-/* ════════════════════════════════════════════════════
-   RESPONSIVE
-   ════════════════════════════════════════════════════ */
 
 @media (max-width: 1024px) {
 
