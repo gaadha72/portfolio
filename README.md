@@ -77,7 +77,7 @@ portfolio/
 Open `index.html` directly in any modern web browser.
 
 Or view the live hosted version here:  
-🔗 [Live Demo]https://github.com/gaadha72/portfolio.git
+🔗 [Live Demo]https://gaadha72.github.io/portfolio/
 
 ---
 
